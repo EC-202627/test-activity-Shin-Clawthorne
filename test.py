@@ -9,7 +9,9 @@
 t = int(input())
 for i in range(t):
     x = int(input())
-    if x >= 2000:
+    if x >= 2000 and x < 10000:
         print(f"Yes")
+    elif x >= 10000:
+        print(f"Its too much")
     else:
         print(f"No")
