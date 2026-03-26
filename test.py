@@ -12,6 +12,6 @@ for i in range(t):
     if x >= 2000 and x < 10000:
         print(f"Yes")
     elif x >= 10000:
-        print(f"Its too much")
+        print(f"It's too much")
     else:
         print(f"No")
